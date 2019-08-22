@@ -1,0 +1,560 @@
+h1{
+  text-align: center;
+
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://komonews.com/resources/media/ee4159df-a62b-41b8-ab27-6557ef922518-large16x9_dn11Air4Mt.Rainier_frame_3111.jpg?1532888163148);
+  background-size:contain;
+  background-color: white;
+
+}
+
+font{
+    font-family: "Megrim";
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Megrim";
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 103.5%;
+}
+
+li {
+
+  float: left;
+}
+
+li a {
+  ;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+h2{
+  background-color: black;
+  opacity: 0.75;
+  text-align: center;
+  margin-top: 0px;
+  color: white;
+  padding: 10px;
+    font-family: "Megrim";
+}
+
+p{
+  background-color: black;
+  opacity: 0.75;
+  text-align: center;
+  margin-top: -20px;
+  color: white;
+  padding: 5px;
+    font-family: "Megrim";
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 400px;
+  height: 250px;
+  border: 3px solid LightSkyBlue ;
+  perspective: 1000px;
+  display: inline-block;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  display: inline-block;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+  display: inline-block;
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-image: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-image: url(library.PNG);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-back2 {
+  background-image: url(bike.PNG);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back3 {
+  background-image: url(golf.PNG);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back4 {
+  background-image: url(impacthubmap.PNG);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back5 {
+  background-image: url(gasworks.PNG);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back6 {
+  background-image: url(mountain.PNG);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+.square {
+ height: 150px;
+ width: 1250px;
+ background-color: LightSkyBlue ;
+ position:relative;
+ top:110px;
+ text-align: center;
+ margin-top: -100px;
+ color: black;
+ font-size: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.flip-box-front, .flip-box-back7 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back7 {
+  background-image: url(rockandroll.PNG);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back8 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back8 {
+  background-image: url(http://farm8.staticflickr.com/7385/8727114192_7f30dcbaf7_z.jpg);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back9 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back9 {
+  background-image: url(https://nightnationrun.com/wp-content/themes/NightNationRun/img/map.png);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back10 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back10 {
+  background-image: url(https://nightnationrun.com/wp-content/themes/NightNationRun/img/map.png);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back11 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back11 {
+  background-image: url(http://drzetlglcbfx.cloudfront.net/routes/thumbnail/7047594?size=200x200);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back12 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back12 {
+  background-image: url(https://s3.amazonaws.com/assets.ramraces.com/public/www.hotchocolate15k.com/generated/_588c87e59a854f50cf837576d08ab933.png?1512496880);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back13 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back13 {
+  background-image: url(http://www.destination360.com/north-america/us/washington/seattle/images/capitol-hill-block-party-map.jpg);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back14 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back14 {
+  background-image: url(https://www.siff.net/Images/Venues/CinemaMap.jpg);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back15 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back15 {
+  background-image: url(http://www.willemsplanet.com/wp-content/uploads/2015/08/Sea-FAir-sm.jpg);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back16 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back16 {
+  background-image: url(http://seattlecentermonorail.files.wordpress.com/2011/07/routemap-white.jpg);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back17 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back17 {
+  background-image: url(https://www.seattleafloat.com/wp-content/uploads/2015/12/parade-of-boats-night-map-FINAL.png);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back18 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-back18 {
+  background-image: url(http://www.eventtrk.com/static/events/images/blog/bumbershootlocation.jpg);
+  background-size: cover;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+button{
+float:left;
+position:relative;
+left: 50px;
+ background-color: darkGrey color: white;
+ border: 1px solid Darkgrey;
+ padding: 12px 28px;
+}
+button:hover{
+background-color: lightGrey;
+color: black;
+}
+button {
+ background-color:#24435c;
+ color:white;
+ padding: 10px 20px;
+ margin: 0 auto;
+ border: none;
+ cursor: pointer;
+ width: 15%;
+ display: block;
+ position: right;
+}
+Collapse
+
+
+
+new messages
+1:39 PM
+map.html 
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel= "stylesheet" href= "map.css" >
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+       <button type="button" onclick="location.href='final.html'">Home</button>
+       <button type="button" onclick="location.href='maps.html'">Get Involved!</button>
+       <button type="button" onclick="location.href='seattle.html'">Map</button>
+       <button type="button" onclick="location.href='gallery.html'">Gallery</button>
+       <button type="button" onclick="location.href='contact.html'">Contacts</button>
+       <button type="button" onclick="location.href='about2.html'">About</button>
+<!-- <div class="icon-bar">
+<a href="#"><i class="fa fa-home" onclick="location.href='final.html'">     </i></a>
+<a href="#"><i class="fa fa-star" onclick="location.href='gallery.html"> </i></a>
+<a href="#"><i class="fa fa-envelope" onclick="location.href='contact.html'">  </i></a>
+<a href="#"><i class="fa fa-globe" onclick="location.href='maps.html'">    </i></a>
+<a href="#"><i class="fa fa-line" onclick="location.href='about2.html"></i></a>
+</div> -->
+
+<div class="square">
+  Get Involved!
+  Places to Check Out
+</div>
+<br>
+<br>
+<br>
+
+<h5>Events</h5>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://www.runrocknroll.com/en/Events/Seattle/The-Races/5K">
+      <img src="https://www.runrocknroll.com/-/media/rnr/images/events/seattle/rnr-seattle-2018-event-images/1000x667-rocknroll-seattle-2017-5k-1.jpg?la=es&hash=593C7B1920E109FFA5FAE9094C42905B3699382C" alt="Paris" style="width:400px;height:250px">
+    </div>
+    <div class="flip-box-back7">
+      <h2>5k Run Rock 'n' Roll</h2>
+      <p>June 6-7, 2020</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://thecolorrun.com/locations/seattle/">
+      <img src="https://i.ytimg.com/vi/TmU2HFbPN7I/maxresdefault.jpg" alt="Paris" style="width:400px;height:250px">
+    </div>
+    <div class="flip-box-back8">
+      <h2>Color Run</h2>
+      <p>May 12, 2020</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://bubblerun.com/upcoming-locations/seattle/">
+      <img src="https://bubblerun.com/wp-content/uploads/2016/09/locsquare79.jpg" alt="Paris" style="width:400px;height:250px">
+    </div>
+    <div class="flip-box-back9">
+      <h2>Bubble Run</h2>
+      <p>June 16-17, 2020</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+        <a href="https://nightnationrun.com/seattle/">
+      <img src="https://eventsget.com/webcontents/eventscontents/2019/images/03_29/WURUR31533/1553852198-2019-night-nation-run-seattle.jpg" alt="Paris" style="width:400px;height:250px">
+    </div>
+    <div class="flip-box-back10">
+      <h2>Night Nation Run</h2>
+      <p>September 28, 2019</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://www2.jdrf.org/site/SPageServer?pagename=btb_homepage">
+      <img src="https://cdn-az.allevents.in/banners/f77f2a817810ff144ef63ed64f2780fd-rimg-w720-h365-gmir.jpg" alt="Paris" style="width:400px;height:250px">
+    </div>
+    <div class="flip-box-back11">
+      <h2>Beat the Bridge</h2>
+      <p>May 19, 2020</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://www.hotchocolate15k.com/seattle">
+      <img src="https://s3.amazonaws.com/assets.ramraces.com/public/www.hotchocolate15k.com/assets/common/images/race11.jpg?1558973819" alt="Paris" style="width:400px;height:250px">
+    </div>
+    <div class="flip-box-back12">
+      <h2>Hot Chocolate Run</h2>
+      <p>March 1, 2020</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://www.capitolhillblockparty.com/">
+      <img src="https://res.cloudinary.com/sagacity/image/upload/c_crop,h_1333,w_1997,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/Capitolhillblock_party_awwjom.jpg" alt="Paris" style="width:400px;height:250px">
+    </div>
+    <div class="flip-box-back13">
+      <h2>Capitol Hill Block Party</h2>
+      <p>July 19-21, 2020</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://www.siff.net/">
+      <img src="https://media1.fdncms.com/stranger/imager/u/large/40130961/34293968043_e3a5c3f4d6_o_mag.jpg" alt="Paris" style="width:400px;height:250px">
+    </div>
+    <div class="flip-box-back14">
+      <h2>Seattle International Film Festival</h2>
+      <p>May 16 - June 9, 2020</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://www.seafair.com/">
+      <img src="https://d38trduahtodj3.cloudfront.net/images.ashx?t=ig&rid=seafair2017&i=sfweekendapodaca50_small.jpg" alt="Paris" style="width:400px;height:250px">
+    </div>
+    <div class="flip-box-back15">
+      <h2>Seafair</h2>
+      <p>August 2-4, 2020</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://www.biteofseattle.com/">
+      <img src="https://www.tripsavvy.com/thmb/Yy-sH6y9XUl2p4vw8sRw1HsLyWM=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-114839055-5b269fb904d1cf0036ed6c0f.jpg" alt="Paris" style="width:400px;height:250px">
+    </div>
+    <div class="flip-box-back16">
+      <h2>Bite of Seattle</h2>
+      <p>July 19-21, 2020</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://www.argosycruises.com/argosy-cruises/christmas-ship-festival/">
+      <img src="https://lakeunioninseattle.com/wp-content/uploads/2014/12/xmas-ships.jpg" alt="Paris" style="width:400px;height:250px">
+    </div>
+    <div class="flip-box-back17">
+      <h2>Christmas Ship Festival</h2>
+      <p>December 2019</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <a href="https://bumbershoot.com/">
+      <img src="https://res.cloudinary.com/sagacity/image/upload/c_crop,h_1365,w_2048,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/0818-cult-bumbershoot_apfkdt.jpg" alt="Paris" style="width:400px;height:250px">
+    </div>
+    <div class="flip-box-back18">
+      <h2>Bumbershoot</h2>
+      <p>August 30 - September 1, 2019</p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+body{
+ background-image: url(https://ssfengineers.com/wp-content/uploads/2015/07/Pike-Place-Market-B-1920x1080.jpg);
+ background-size: cover;
+}
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333;
+ width: 103.5%;
+ font-family: "Megrim"
+}
+li {
+ float: left;
+}
+li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+li a:hover {
+ background-color: #111;
+}
+h1 {
+ color:white;
+ position:relative;
+ top: 20px;
+ right: -50px;
+}
+h2{
+ color:white;
+ position:relative;
+ top: 20px;
+ right: -50px;
+ font-size:20px;
+}
+
+h3{
+ color:white;
+ position:relative;
+ top: 20px;
+ right: -50px;
+ font-size:20px;
+}
+
+info {
+  font-family: "Megrim";
+}
+
+.square {
+ height: 1200px;
+ width: 95%;
+ background-color: black;
+ opacity: 0.75;
+ position:relative;
+ top: -1015px;
+ right: 30px;
+ text-align: center;
+ margin-top: -100px;
+ z-index: -1;
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+s1{
+  height:10%;
+  position:relative;
+  top: -0px;
+  right: -70px;
+}
+
+s2{
+  position:relative;
+  top: -25px;
+  left: 100px;
+}
+
+s4{
+  position:relative;
+  top: -50px;
+
+}
